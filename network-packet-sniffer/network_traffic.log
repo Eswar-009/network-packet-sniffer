@@ -1,0 +1,11 @@
+=== Sample Network Traffic Log ===
+2026-10-02 04:50:00 | TCP | 192.0.2.10:443 -> 192.0.2.20 | TTL=64 | payload=128 bytes
+2026-10-02 04:50:01 | UDP | 192.0.2.20:5353 -> 224.0.0.251 | TTL=255 | payload=72 bytes
+2026-10-02 04:50:02 | TCP | 192.0.2.20:51544 -> 192.0.2.10:443 | TTL=64 | payload=0 bytes
+2026-10-02 04:50:03 | UDP | 192.0.2.10:53000 -> 192.0.2.53:53 | TTL=64 | payload=40 bytes
+2026-10-02 04:50:04 | ICMP | 192.0.2.20 -> 192.0.2.10 | TTL=64 | payload=32 bytes
+
+=== Protocol Statistics ===
+TCP=2
+UDP=2
+ICMP=1
